@@ -3,33 +3,8 @@ WebG2014
 
 Bootcamp Web G Section 2014
 
-## intro:
-- go over character encoding article (reading assingment from last night) and why this is important. 
-
-- go over HTML & CSS book intro and chapter 1 (briefly)
-
-- have students mention one site they like from the home work and say why. 5 minutes each.
-
-- demo Web Inspector in Dev Tools; re-style and break websites, hack Flickr and Instagram photos.  
-
-- state how webpages are sort of like electronic or digital versions of documents.
-  - EG: a newspaper like the NY Times. Same content in print and web, but in different form.
-
-
-- explain how HTML is like our outline or skeleton of our webpages. It gives them structure. 
-  - Just a bunch of boxes or containers. Later we will get more into something called the “box model” which describes the properties of these boxes.
-  - create a hierarchy of information
-
-- CSS is the style and explains where things should be positioned and how they should look.
-
-- together they are the blue-prints for what we see on the web.
-
-- p.s. CSS does some interactivity but this is primarily handled by Javascript. 
 
 ## anatonomy of an HTML tag
-
-
-- what are html tags / elements? why do we need them? who wrote this annoying looking crap?
 
 - semantics in html: help us read our code easier, don’t really affect how pages are rendered.
   - they are used by screen readers however
@@ -43,12 +18,6 @@ Bootcamp Web G Section 2014
     - notice no spaces between the attribute name, `=` and `“”`
     - value can be multiple properties such as used by inline CSS, eg: `style="background-color:#FFF;"`	
   - right bracket to close `>`
-
-- most tags need to be closed. some are self closing.
-
-- tags can be nested within each other. We indent nested tags to make our code more 'human readable.'
-
-- a browser will render our html and apply really boring default styles without assigning it any CSS.
 
 ## the most common tags
 
@@ -121,19 +90,6 @@ Go through most common tags, coding them one by one explaining & what each is fo
 - white space: web browsers will render extra white space as a single line space and a new line without a `<br>` on the same line
 - escaping characters & unicode symbols ( *see book HTML & CSS pg 194* )   
 
-### terminology:
-  - DOM 
-  - opening tag
-  - closing tag
-  - attribute
-  - root
-  - metadata
-  - link
-  - content
-  - embed
-  
-### tips:
-- I strongly recommend making **flash-cards** when you are first learning this stuff and then quizzing yourself a few times a day when you have 5-10 minutes. This will help a ton!
 
 ### homework: 
 Reading (HTML & CSS pgs...), write a basic html page. Could be anything, don’t worry about getting stuff wrong. Get as crazy as you want but at the very minimum:
