@@ -4,7 +4,7 @@ WebG2014
 Bootcamp Web G Section 2014
 
 
-## anatonomy of an HTML tag
+##Anatonomy of an HTML tag
 
 - anatomy of a tag: 
   - left bracket to open `<`
@@ -16,18 +16,18 @@ Bootcamp Web G Section 2014
     - value can be multiple properties such as used by inline CSS, eg: `style="background-color:#FFF;"`	
   - right bracket to close `>`
 
-## the most common tags
+##The most common tags
 
 Go through most common tags, coding them one by one explaining & what each is for.
 
   - `<!doctype html>`
     - not an actual tag but a declaration; tells the browser what version of html we are coding our page in. 
 
-## Root element
+###Root element
   - `<html>`
     - Represents the root of an HTML document. All other elements must be descendants of this element.
 
-## Document metadata
+###Document metadata
   - `<head>`
     - Represents a collection of metadata about the document, including links to, or definitions of, scripts and style sheets.
 
@@ -45,17 +45,17 @@ Go through most common tags, coding them one by one explaining & what each is fo
   - `<link>`
     - Used to link JavaScript, external CSS  and icons with the current HTML document.
 
- ##Scripting   
+ ###Scripting   
   - `<script>`
     - Defines either an internal script or a link to an external script. The script language is JavaScript.
 
- ##Sections
+ ###Sections
   - `<body>`
     - Represents the content of an HTML document. There is only one <body> element in a document.
   - `<h1> … <h6>`
     - Heading elements implement six levels of document headings `<h1>` is the most important and `<h6>` is the least. A heading element briefly describes the topic of the section it introduces.
 
-  ##Grouping content  
+ ###Grouping content  
   - `<div>`
     - used to group other elements in a block.
     - Represents a generic container with no special meaning.
@@ -73,7 +73,7 @@ Go through most common tags, coding them one by one explaining & what each is fo
     - examples: recipe instructions, creating a navigation bar.
     - lists can be nested.
 
-##Text-level semantics
+###Text-level semantics
   - `<span>`
     - like a div but for grouping elements inline.
     - used primarily for styling with CSS 
@@ -94,7 +94,7 @@ Go through most common tags, coding them one by one explaining & what each is fo
    - for semantically styling text: bold, italic, emphasis.
    - we don’t really use these to style our pages anymore, but sometimes they’re helpful.
 
-## Embedded content
+###Embedded content
   - `<img>`
     - for placing a block level image. self closing.
     - src attribute: `src=“path/to/img.jpg”`
