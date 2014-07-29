@@ -27,7 +27,7 @@ Go through most common tags, coding them one by one explaining & what each is fo
     - not an actual tag but a declaration; tells the browser what version of html we are coding our page in. 
 
   - `<html>`
-    - Represents the root of an HTML document. All other elements must be descendants of this **element**.
+    - Represents the root of an HTML document. All other elements must be descendants of this element.
 
   - `<head>`
     - Represents a collection of metadata about the document, including links to, or definitions of, scripts and style sheets.
@@ -46,7 +46,7 @@ Go through most common tags, coding them one by one explaining & what each is fo
   - `<body>`
     - Represents the content of an HTML document. There is only one <body> element in a document.
   - `<h1> … <h6>`
-    - Heading elements implement six levels of document headings; <h1> is the most important and <h6> is the least. A heading element briefly describes the topic of the section it introduces.
+    - Heading elements implement six levels of document headings `<h1>` is the most important and `<h6>` is the least. A heading element briefly describes the topic of the section it introduces.
   - `<div>`
     - used to group other elements in a block.
     - Represents a generic container with no special meaning.
