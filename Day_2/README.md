@@ -27,8 +27,8 @@ Go through most common tags, coding them one by one explaining & what each is fo
     - not an actual tag but a declaration; tells the browser what version of html we are coding our page in. 
 
   - `<html>`
-    - Represents the root of an HTML document. All other elements must be descendants of this element.
-    
+    - Represents the root of an HTML document. All other elements must be descendants of this **element**.
+
   - `<head>`
     - Represents a collection of metadata about the document, including links to, or definitions of, scripts and style sheets.
   - `<title>`
