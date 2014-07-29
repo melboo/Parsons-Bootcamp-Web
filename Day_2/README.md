@@ -6,9 +6,6 @@ Bootcamp Web G Section 2014
 
 ## anatonomy of an HTML tag
 
-- semantics in html: help us read our code easier, don’t really affect how pages are rendered.
-  - they are used by screen readers however
-
 - anatomy of a tag: 
   - left bracket to open `<`
     - if you are writing a closing tag, then next would come a `/`
@@ -26,36 +23,61 @@ Go through most common tags, coding them one by one explaining & what each is fo
   - `<!doctype html>`
     - not an actual tag but a declaration; tells the browser what version of html we are coding our page in. 
 
+## Root element
   - `<html>`
     - Represents the root of an HTML document. All other elements must be descendants of this element.
 
+## Document metadata
   - `<head>`
     - Represents a collection of metadata about the document, including links to, or definitions of, scripts and style sheets.
+
   - `<title>`
-    - the title of your webpage.
+    - Defines the title of the document, shown in a browser's title bar or on the page's tab. It can only contain text and any contained tags are not interpreted.
+
   - `<meta>`
     - descriptive properties about our page like the language, character encoding, the author, title, key words, etc. self closing.
     - used by search engines
     - requires the `name` and `content` attributes.
+
   - `<style>`
     - Used to write inline CSS.
+
   - `<link>`
     - Used to link JavaScript, external CSS  and icons with the current HTML document.
+
+ ##Scripting   
   - `<script>`
     - Defines either an internal script or a link to an external script. The script language is JavaScript.
+
+ ##Sections
   - `<body>`
     - Represents the content of an HTML document. There is only one <body> element in a document.
   - `<h1> … <h6>`
     - Heading elements implement six levels of document headings `<h1>` is the most important and `<h6>` is the least. A heading element briefly describes the topic of the section it introduces.
+
+  ##Grouping content  
   - `<div>`
     - used to group other elements in a block.
     - Represents a generic container with no special meaning.
     - Helps for styling & positioning groups of elements as well as keeping your code readabe.
+
+  - `<p>`
+    - Defines a portion that should be displayed as a paragraph.
+
+  - `<hr>`
+    - creates a ruled line. self closing. 
+    - Represents a thematic break between paragraphs of a section or article or any longer content.
+
+  - `<ul> , <ol>, <li>`
+    - un-ordered list, ordered list, list element.
+    - examples: recipe instructions, creating a navigation bar.
+    - lists can be nested.
+
+##Text-level semantics
   - `<span>`
     - like a div but for grouping elements inline.
     - used primarily for styling with CSS 
-  - `<p>`
-    - used to enclose paragraphs of text
+
   - `<a>`
     - create a clickable link 
     - with `href` attribute: to another web page on the internet OR to another part of our page.
@@ -64,26 +86,27 @@ Go through most common tags, coding them one by one explaining & what each is fo
       - or just use “#” as a placeholder
     - with `mailto` attribute: will start user’s email program and insert email address
     - with `target=“_blank”` it will open the link in a new window
+
   - `<br>`
     - creates a break between elements. self closing.
-  - `<hr>`
-    - creates a ruled line. self closing.
+ 
   - `<b>, <i>, <em>`
    - for semantically styling text: bold, italic, emphasis.
    - we don’t really use these to style our pages anymore, but sometimes they’re helpful.
-  - `<ul> , <ol>, <li>`
-    - un-ordered list, ordered list, list element.
-    - examples: recipe instructions, creating a navigation bar.
-    - lists can be nested.
+
+## Embedded content
   - `<img>`
     - for placing a block level image. self closing.
     - src attribute: `src=“path/to/img.jpg”`
     - alt attribute
     - title attribute
     - width & height
+
   - `<iframe>`
-    - we can place a website from somewhere else inside our website. whoa!
+  	- Represents a nested browsing context , that is an embedded HTML document.
+    - we can place a website from somewhere else inside our website.
     - requires following attributes: src, width, height
+
   - `<!— —>`
     - comments: for we want to describe parts of the site or “comment out” code. browser won’t read these.
 
