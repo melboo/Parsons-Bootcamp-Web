@@ -25,10 +25,12 @@ Go through most common tags, coding them one by one explaining & what each is fo
 
   - `<!doctype html>`
     - not an actual tag but a declaration; tells the browser what version of html we are coding our page in. 
+
   - `<html>`
-    - we begin and end our page with this. needs to be closed
+    - Represents the root of an HTML document. All other elements must be descendants of this element.
+    
   - `<head>`
-    - information about our page and links to external stuff our page uses, doesn’t get rendered to the browser’s viewport. needs to be closed.
+    - Represents a collection of metadata about the document, including links to, or definitions of, scripts and style sheets.
   - `<title>`
     - the title of your webpage.
   - `<meta>`
@@ -36,17 +38,18 @@ Go through most common tags, coding them one by one explaining & what each is fo
     - used by search engines
     - requires the `name` and `content` attributes.
   - `<style>`
-    - one place where we can add CSS. talk more later. needs to be closed.
+    - Used to write inline CSS.
   - `<link>`
-    - literally tells our browser what other files we want for things like CSS files and icons.
+    - Used to link JavaScript, external CSS  and icons with the current HTML document.
   - `<script>`
-    - where we put our JS or tell our browser where to find it. Could be elsewhere on the web or on our computer.
+    - Defines either an internal script or a link to an external script. The script language is JavaScript.
   - `<body>`
-    - the start of where all the visible content in our webpage goes, ie this stuff is rendered in the browser’s viewport.
+    - Represents the content of an HTML document. There is only one <body> element in a document.
   - `<h1> … <h6>`
-    - headers that create hierarchy like an outline. 1 is most important, 2 is less, etc. 
+    - Heading elements implement six levels of document headings; <h1> is the most important and <h6> is the least. A heading element briefly describes the topic of the section it introduces.
   - `<div>`
     - used to group other elements in a block.
+    - Represents a generic container with no special meaning.
     - Helps for styling & positioning groups of elements as well as keeping your code readabe.
   - `<span>`
     - like a div but for grouping elements inline.
@@ -70,8 +73,7 @@ Go through most common tags, coding them one by one explaining & what each is fo
    - we don’t really use these to style our pages anymore, but sometimes they’re helpful.
   - `<ul> , <ol>, <li>`
     - un-ordered list, ordered list, list element.
-    - q: why use an ordered list? why an un-ordered list?
-    - a: recipe instructions, creating a navigation bar.
+    - examples: recipe instructions, creating a navigation bar.
     - lists can be nested.
   - `<img>`
     - for placing a block level image. self closing.
@@ -110,7 +112,7 @@ Could be anything, don’t worry about getting stuff wrong. Get as crazy as you 
   - 2 `<span>`'s
 - ** _important:_ ** write a `<!-- comment -->` above each line of code in your document saying what it does, in a way that makes sense to you.
 
-
+* Chris Henrick
 
 ## Reference:
 - MDN [HTML5 element list](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
