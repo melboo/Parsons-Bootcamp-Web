@@ -87,12 +87,12 @@ Go through most common tags, coding them one by one explaining & what each is fo
 
 ### watch out for:
 - not closing your tags!
-- white space: web browsers will render extra white space as a single line space and a new line without a `<br>` on the same line
-- escaping characters & unicode symbols ( *see book HTML & CSS pg 194* )   
+- white space: web browsers will render extra white space as a single line space and a new line without a `<br>` on the same line  
 
 
 ### homework: 
-Reading (HTML & CSS pgs...), write a basic html page. Could be anything, don’t worry about getting stuff wrong. Get as crazy as you want but at the very minimum:
+
+Could be anything, don’t worry about getting stuff wrong. Get as crazy as you want but at the very minimum:
 
 - make some more HTML! Create something meaningful, could be a recipe, instructions to build something, a bibliography, poetry, fictional story.
 - set up a webpage as we've done in class using the doctype declaration as well as root, head, and body tags.
@@ -110,7 +110,6 @@ Reading (HTML & CSS pgs...), write a basic html page. Could be anything, don’t
   - 2 `<span>`'s
 - ** _important:_ ** write a `<!-- comment -->` above each line of code in your document saying what it does, in a way that makes sense to you.
 
-__ *Post this to the blog or email to me by 8am tomorrow.* __
 
 
 ## Reference:
