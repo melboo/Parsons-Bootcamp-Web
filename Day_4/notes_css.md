@@ -13,7 +13,29 @@ Day 4: CSS Positioning and Floats
 
 - Elements can be positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the positioning method.
 
-**There are four different positioning methods.:**
+**There are four different positioning methods:**
+
+
+###Static Positioning###
+- HTML elements are positioned static by default. A static positioned element is always positioned according to the normal flow of the page.
+
+- Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+
+###Fixed Positioning###
+- An element with fixed position is positioned relative to the browser window.
+
+- It will not move even if the window is scrolled:
+
+Example:
+`p.pos_fixed {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+}`
+
+
+
 
 ## How it works
 From MDN, [How CSS works](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/How_CSS_works)
