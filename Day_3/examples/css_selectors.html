@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Selectors</title>
+	<style type="text/css">
+		html, body {
+			margin: 0;
+			padding: 0;
+			height, width: 100%;
+		}
+
+		/* Pay attention to difference between the selectors for the following ids and classes */
+
+		#header {
+			background-color: hsla(10, 100%, 70%, 0.6);
+		}
+
+		.callout {
+			background-color: hsla(300, 100%, 70%, 0.6);
+		}
+
+		#wrapper {			
+			height, width: 80%;
+			margin: 10%;
+			position: relative;
+		}
+
+		#header .callout {
+			background-color: hsla(50, 100%, 70%, 0.6);
+		}
+
+		#header.callout {
+			background-color: hsla(150, 100%, 70%, 0.6)	
+		}
+
+		.callout.callout2 {
+			background-color: hsla(85, 100%, 70%, 0.6);
+		}
+
+		div {				
+			position: relative;
+			display: table;
+			height: 300px;
+			width: 300px;
+			margin: 5%;			
+		}
+
+		div p {						
+			font: bold 20px"Gil Sans", sans-serif;
+			color: hsla(0,0%,20%,0.6);
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>		
+	<div id="wrapper">
+
+		<div class="callout">
+			<p>Class: callout</p>
+		</div>
+
+		<div id ="header">
+			<p>id: header</p>
+		</div>
+
+		<div id="header">
+			<div class="callout">			
+				<p>Parent id: header <br>
+				Child class: callout</p>
+			</div>
+		</div>
+
+		<div id="header" class="callout">
+			<p>id: header &#38; <br> class: callout</p>
+		</div>
+
+		<div class="callout callout2">
+			<p>class: callout callout2</p>
+		</div>
+
+	</div>	
+</body>
+</html>

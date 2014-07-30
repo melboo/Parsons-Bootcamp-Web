@@ -23,4 +23,3 @@ Phone:	917 525 8577
 - [MDN reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [css tricks:](http://css-tricks.com/pseudo-class-selectors/)
 - [more css tricks](http://css-tricks.com/pseudo-element-roundup/)
-- [cheatsheets](http://d2o9nyf4hwsci4.cloudfront.net/2011/fall/lectures/8/cheatsheets/css-cheat-sheet-v2.pdf)
