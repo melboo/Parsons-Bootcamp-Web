@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS selectors Google Font</title>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:700|Raleway' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	
+		/*normalize css for all browsers, reset all values*/
+		html, body {
+			margin: 0;	
+			padding: 0;	
+			height: 100%;
+			width: 100%; 
+			font-size: 62.5%; /* 1em = 10px / if not set, 1em = 16px*/
+		}
+
+		body {
+			/*set Raleway to default font of the web site*/
+			font-family: 'Raleway', serif; 
+		}
+
+		#main {
+			/*The padding clears an area around the content (inside the border) of an element.*/
+			padding-left: 20px;
+			padding-top: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			height: 100%;
+		}
+
+		.box1 {
+			width: 200px;
+			background-color: #7fb2ff;
+			border: 3px dashed #2864ff;
+			/*The padding clears an area around the content (inside the border) of an element.*/
+			padding-left: 5px;
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+		}
+
+		.box1 h1 {
+			font-family: 'Bitter', serif;
+			color: hsla(223, 93%, 10%, 1);
+			font-size: 3.6em; /* 1em = 10px / if not set, 1em = 16px*/
+		}
+
+		.box1 p {
+			color: blue;
+			font-size: 1.4em; /* 1em = 10px / if not set, 1em = 16px*/
+			line-height: 1.2em;
+		}
+
+		.box2 {
+			background-color: hsla(121, 93%, 67%, 1);
+			margin-top: 10px;
+			/*The padding clears an area around the content (inside the border) of an element.*/
+			padding-left: 5px;
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+			border: 5px groove #24ff2b;
+
+		}
+
+		.box2 h1 {
+			font-family: 'Bitter', serif;
+			font-size: 2.2em; /* 1em = 10px / if not set, 1em = 16px*/
+			color: hsla(101, 93%, 10%, 1);
+		}
+
+		.box2 .insidebox1 {	
+			background-color: hsla(46, 93%, 56%, 0.57);
+			/*The padding clears an area around the content (inside the border) of an element.*/
+			padding-left: 5px;
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+		}
+
+		.box2 .insidebox1 p {
+			font-size: 1.4em; /* 1em = 10px / if not set, 1em = 16px*/
+			line-height: 1.2em;
+
+		}
+
+		.box2 .insidebox2 {
+			background-color: hsla(20, 93%, 56%, 0.57);
+			/*The padding clears an area around the content (inside the border) of an element.*/
+			padding-left: 5px;
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+		}
+
+		.box2 .insidebox2 p {
+			font-size: 1.4em; /* 1em = 10px / if not set, 1em = 16px*/
+			line-height: 1.2em;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="main">
+		<div class="box1">
+			<h1>Box 1</h1>
+			<p>Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. Paragraph inside Box 1. </p>
+		</div>
+		<div class="box2">
+			<h1>Box 2</h1>
+			<div class="insidebox1">
+				<p>Paragraph inside Insidebox1. Paragraph inside Insidebox1. Paragraph inside Insidebox1. Paragraph inside Insidebox1. Paragraph inside Insidebox1. Paragraph inside Insidebox1. Paragraph inside Insidebox1. Paragraph inside Insidebox1. Paragraph inside Insidebox1. </p>
+
+			</div>
+			<div class="insidebox2">
+				<p>Paragraph inside Insidebox2. Paragraph inside Insidebox2. Paragraph inside Insidebox2. Paragraph inside Insidebox2. Paragraph inside Insidebox2. Paragraph inside Insidebox2. Paragraph inside Insidebox2. Paragraph inside Insidebox2. Paragraph inside Insidebox2. </p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
