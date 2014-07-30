@@ -34,8 +34,30 @@ Example:
     right: 5px;
 }`
 
+- Fixed positioned elements are removed from the normal flow. The document and other elements behave like the fixed positioned element does not exist.
+
+- Fixed positioned elements can overlap other elements.
 
 
+###Relative Positioning###
+-A relative positioned element is positioned relative to its normal position.
+
+Example: `h2.pos_left {
+    position: relative;
+    left: -20px;
+}`
+
+h2.pos_right {
+    position: relative;
+    left: 20px;
+}`
+
+- The content of relatively positioned elements can be moved and overlap other elements, but the reserved space for the element is still preserved in the normal flow.
+
+`h2.pos_top {
+    position: relative;
+    top: -50px;
+}`
 
 ## How it works
 From MDN, [How CSS works](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/How_CSS_works)
