@@ -4,21 +4,16 @@ WebG2014
 Bootcamp Web G Section 2014
 
 
-Day 3: Intro to CSS Notes
+Day 4: CSS Positioning and Floats
 =========================
-## Order of subjects:
-1. CSS, what is it? Cascading Style Sheets. 
-2. CSS syntax, an overview.
-	1. Selectors
-	2. Common Properties
-	3. Combining Selectors
-3. General Best Practices
 
-## Why CSS?
+## Positioning
 
-- From MDN [Why Use CSS](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_Started/Why_use_CSS): "Use CSS to define styles for your documents, including the design, layout and variations in display for different devices and screen sizes."
+- The CSS positioning properties allow you to position an element. It can also place an element behind another, and specify what should happen when an element's content is too big.
 
-- Separating our styles from our structure keeps our code organized, efficient and readable.
+- Elements can be positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the positioning method.
+
+**There are four different positioning methods.:**
 
 ## How it works
 From MDN, [How CSS works](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/How_CSS_works)
