@@ -20,6 +20,7 @@ Phone:	917 525 8577
 - W3schools [HTML Tag Reference](http://www.w3schools.com/tags/)
 
 ###CSS
-- [MDN reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
-- [css tricks:](http://css-tricks.com/pseudo-class-selectors/)
-- [more css tricks](http://css-tricks.com/pseudo-element-roundup/)
+- MDN reference[MDN reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- css tricks[css tricks:](http://css-tricks.com/pseudo-class-selectors/)
+- More css tricks[more css tricks](http://css-tricks.com/pseudo-element-roundup/)
+- Cheatsheets[cheatsheets](http://d2o9nyf4hwsci4.cloudfront.net/2011/fall/lectures/8/cheatsheets/css-cheat-sheet-v2.pdf)
