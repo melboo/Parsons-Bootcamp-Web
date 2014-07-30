@@ -24,3 +24,6 @@ Phone:	917 525 8577
 - css tricks[css tricks:](http://css-tricks.com/pseudo-class-selectors/)
 - More css tricks[more css tricks](http://css-tricks.com/pseudo-element-roundup/)
 - Cheatsheets[cheatsheets](http://d2o9nyf4hwsci4.cloudfront.net/2011/fall/lectures/8/cheatsheets/css-cheat-sheet-v2.pdf)
+
+##COLORS
+- hsl color picker[hsl color picker](http://hslpicker.com/)
