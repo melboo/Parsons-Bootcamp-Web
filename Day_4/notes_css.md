@@ -13,6 +13,7 @@ Day 4: CSS Positioning and Floats
 
 - Elements can be positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the positioning method.
 
+
 **There are four different positioning methods:**
 
 
@@ -47,14 +48,14 @@ Example: `h2.pos_left {
     left: -20px;
 }`
 
-h2.pos_right {
+`h2.pos_right {
     position: relative;
     left: 20px;
 }`
 
 - The content of relatively positioned elements can be moved and overlap other elements, but the reserved space for the element is still preserved in the normal flow.
 
-`h2.pos_top {
+h2.pos_top {
     position: relative;
     top: -50px;
 }`
