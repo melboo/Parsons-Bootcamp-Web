@@ -25,5 +25,9 @@ Phone:	917 525 8577
 - More css tricks[more css tricks](http://css-tricks.com/pseudo-element-roundup/)
 - Cheatsheets[cheatsheets](http://d2o9nyf4hwsci4.cloudfront.net/2011/fall/lectures/8/cheatsheets/css-cheat-sheet-v2.pdf)
 
-##COLORS
+###COLORS
 - hsl color picker[hsl color picker](http://hslpicker.com/)
+
+###COLOR SCHEMES
+- Paletton(http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+- Color Lovers(http://www.colourlovers.com)
