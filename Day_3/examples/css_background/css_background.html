@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>CSS boxmodel</title>
+	<title>CSS Background</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato|Oswald:700' rel='stylesheet' type='text/css'>
 	<style type="text/css">
 	
 		/*normalize css for all browsers, reset all values*/
@@ -14,25 +15,21 @@
 			font-size: 62.5%; /* 1em = 10px / if not set, 1em = 16px*/
 		}
 
-		.simple {
-  			width: 500px;
-  			margin: 20px auto;
-  			border: 2px solid #6AC5AC;
+		#main {
+			background-image:url('img/123.jpg'); /*link to img folder*/
+			background-repeat: repeat;
+			width: 100%;
+			height: 100%;
 		}
 
-		.fancy {
-  			width: 500px;
-  			margin: 20px auto;
-  			padding: 50px;
-  			border: 1px solid #6AC5AC;
-		}
+
 
 	</style>
 </head>
 <body>
-	<div id="wrapper">
-		<div class="simple">I'm smaller...</div>
-		<div class="fancy">And I'm bigger!</div>
+	<div id="main">
+		<h1></h1>
 	</div>
+
 </body>
 </html>

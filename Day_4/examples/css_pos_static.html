@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS selectors Google Font</title>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:700|Raleway' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	
+		/*normalize css for all browsers, reset all values*/
+		html, body {
+			margin: 0;	
+			padding: 0;	
+			height: 100%;
+			width: 100%; 
+			font-size: 62.5%; /* 1em = 10px / if not set, 1em = 16px*/
+		}
+
+		body {
+			font-size: 1.6em;
+			font-family: helvetica, sans-serif;
+		}
+
+		.static {
+			position: static;
+			border: 1px solid #ff0317;
+			background-color: #ff616c;
+		}
+
+		span {
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="main">
+		<div class="static"><span>static</span> is the default value. An element with <span>position: static;</span> is not positioned in any special way. A static element is said to be not positioned and an element with its position set to anything else is said to be positioned. Static is the default value for <span>position:</span></div>
+	</div>
+</body>
+</html>
