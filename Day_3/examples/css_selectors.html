@@ -15,25 +15,25 @@
 			background-color: hsla(10, 100%, 70%, 0.6);
 		}
 
-		.callout {
+		.box {
 			background-color: hsla(300, 100%, 70%, 0.6);
 		}
 
 		#wrapper {			
 			height, width: 80%;
 			margin: 10%;
-			position: relative;
 		}
 
-		#header .callout {
+		#header .box {
 			background-color: hsla(50, 100%, 70%, 0.6);
+			border: 1px solid red;
 		}
 
-		#header.callout {
+		#header.box {
 			background-color: hsla(150, 100%, 70%, 0.6)	
 		}
 
-		.callout.callout2 {
+		.box.box2 {
 			background-color: hsla(85, 100%, 70%, 0.6);
 		}
 
@@ -58,8 +58,8 @@
 <body>		
 	<div id="wrapper">
 
-		<div class="callout">
-			<p>Class: callout</p>
+		<div class="box">
+			<p>Class: box</p>
 		</div>
 
 		<div id ="header">
@@ -67,18 +67,18 @@
 		</div>
 
 		<div id="header">
-			<div class="callout">			
+			<div class="box">			
 				<p>Parent id: header <br>
-				Child class: callout</p>
+				Child class: box</p>
 			</div>
 		</div>
 
-		<div id="header" class="callout">
-			<p>id: header &#38; <br> class: callout</p>
+		<div id="header" class="box">
+			<p>id: header &#38; <br> class: box</p>
 		</div>
-
-		<div class="callout callout2">
-			<p>class: callout callout2</p>
+		<!-- .box.box2-->
+		<div class="box box2">
+			<p>class: box box2</p>
 		</div>
 
 	</div>	
