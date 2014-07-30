@@ -29,5 +29,5 @@ Phone:	917 525 8577
 - hsl color picker[hsl color picker](http://hslpicker.com/)
 
 ###COLOR SCHEMES
-- Paletton(http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
-- Color Lovers(http://www.colourlovers.com)
+- Paletton[](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+- Color Lovers[](http://www.colourlovers.com)
