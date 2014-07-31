@@ -35,6 +35,8 @@ Example:
     right: 5px;
 }`
 
+Try out: [CSS Code](http://www.w3schools.com/css/tryit.asp?filename=trycss_position_fixed)
+
 - Fixed positioned elements are removed from the normal flow. The document and other elements behave like the fixed positioned element does not exist.
 
 - Fixed positioned elements can overlap other elements.
@@ -53,12 +55,17 @@ h2.pos_right {
     left: 20px;
 }`
 
+Try out: [CSS Code](http://www.w3schools.com/css/tryit.asp?filename=trycss_position_relative)
+
 - The content of relatively positioned elements can be moved and overlap other elements, but the reserved space for the element is still preserved in the normal flow.
 
+Example:
 `h2.pos_top {
     position: relative;
     top: -50px;
 }`
+
+Try out: [CSS Code](http://www.w3schools.com/css/tryit.asp?filename=trycss_position_relative2)
 
 - Relatively positioned elements are often used as container blocks for absolutely positioned elements.
 
@@ -73,6 +80,7 @@ Example:
     top: 150px;
 }`
 
+Try out: [CSS Code](http://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute)
 
 - Absolutely positioned elements are removed from the normal flow. The document and other elements behave like the absolutely positioned element does not exist.
 
@@ -86,7 +94,7 @@ Example:
 - The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
 
 - An element can have a positive or negative stack order:
-
+Example:
 `img {
     position: absolute;
     left: 0px;
