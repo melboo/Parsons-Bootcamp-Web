@@ -26,8 +26,9 @@ img {
 
 nav {
 	border: 2px solid red;
-  	position: absolute;
-  	left: 0px;
+  	/*position: absolute;
+  	left: 0px;*/
+  	float: left;
   	width: 200px;
 }
 
@@ -41,8 +42,8 @@ section {
 footer {
 	border: 2px solid green;
   	position: fixed; /*absolute goes to #main*/
-  	bottom: 0;
-  	left: 0;
+  	top: 50px;
+  	left: 0px;
   	height: 70px;
   	background-color: white;
   	width: 100%;

@@ -20,28 +20,32 @@ html, body {
 }
 
 .div-before {
-	background-color: #6139b5;
+	background-color: orange;
+	position: static;
 }
 
 .div-1 {
 	background-color: black;
 	color: white;
-	padding:5px;
-	/*element moves relative to where it would normally occur*/
-	/*notice the space where it would normally occur*/
-	/*space stays empty*/
-	
-	position:relative;
-	top:0px;
-	left:0px;
+	padding: 5px;
+	position: relative;
+	height: 150px;
 }
 
 .div-1a {
 	background-color: red;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width: 200px;
 }
 
 .div-1b {
 	background-color: green;
+	position: absolute;
+	left:0px;
+	top:0px;
+	width: 200px;
 }
 
 .div-1c {
@@ -49,5 +53,9 @@ html, body {
 }
 
 .div-after {
-	background-color: #6139b5;
+	background-color: #ab14b5;
 }
+
+
+
+

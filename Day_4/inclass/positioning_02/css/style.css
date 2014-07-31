@@ -15,34 +15,39 @@ html, body {
 /**********************************************/
 
 #main {
-  	border: 2px solid orange;
-}
-
-img {
-	float: left;
-	margin: 0 0 10px 10px;
+	position: relative;
 }
 
 nav {
 	border: 2px solid red;
-  	float:left;
-  	width: 200px;
+	position: absolute;
+	left: 0px;
+	width: 200px;
 }
 
 section {
 	border: 2px solid blue;
-  	margin-left: 200px;
-  	overflow: auto; /*that picture fits inside*/
+	position: static;
+	margin-left: 200px;
 }
 
 footer {
 	border: 2px solid green;
-
-  	height: 70px;
-  	background-color: white;
-  	width: 100%;
+	position: fixed;
+	bottom: 200px;
+	left: 0px;
+	background-color: white;
+	width: 100%;
 }
 
-body {
-  	margin-bottom: 120px;
-}
+
+
+
+
+
+
+
+
+
+
+
