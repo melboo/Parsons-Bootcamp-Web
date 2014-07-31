@@ -1,0 +1,91 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+	font-size: 62.5%; /* 1em = 10px / if not set, 1em = 16px*/
+}
+/**********************************************/
+
+#main {
+	margin: 0 auto;
+	width: 1142px;
+}
+
+header {
+	font-family: helvetica, arial;
+	height: 180px; /*subtract padding: 300px - 120px*/
+	background-color: #ff0000;
+	padding-top: 120px;
+	font-size: 2.4em;
+	text-align: center;
+	color: white;
+}
+
+footer {
+	font-family: helvetica, arial;
+	height: 180px; /*subtract padding: 300px - 120px*/
+	background-color: #ff0000;
+	padding-top: 120px;
+	font-size: 2.4em;
+	text-align: center;
+	color: white;
+}
+
+.thumb-overlay{
+	background-image: url("../img/red.png");
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+
+	/* linear animation*/
+	animation:myfirst 3s linear infinite;
+	-moz-animation:myfirst 3s linear infinite; /* Firefox */
+	-webkit-animation:myfirst 3s linear infinite; /* Safari and Chrome */
+	-o-animation:myfirst 3s linear infinite; /* Opera */  
+	}
+
+	/*Key frames for animation */
+@keyframes myfirst
+{
+	from {background-position: 0 top;}
+	to {background-position: 242px top;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+	from {background-position: 0 top;}
+	to {background-position: 242px top;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	from {background-position: 0 top;}
+	to {background-position: 242px top;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+	from {background-position: 0 top;}
+	to {background-position: 242px top;}
+}
+
+.thumb-image {
+	position: relative;
+	display: inline-block;
+}
+
+.thumb-image:hover .thumb-overlay {
+	opacity: 1;
+}
