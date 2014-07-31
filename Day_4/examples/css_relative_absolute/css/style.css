@@ -1,0 +1,51 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.div-before {
+	background-color: #6139b5;
+}
+
+.div-1 {
+	/*If we set relative positioning on div-1, any elements within div-1 will be positioned relative to div-1. */
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+.div-1a {
+	background-color: red;
+	position: absolute;
+	top:0;
+	right:0;
+	width: 200px; /*If no with, 100%*/
+}
+
+.div-1b {
+	background-color: green;
+}
+
+.div-1c {
+	background-color: blue;
+}
+
+.div-after {
+	background-color: #6139b5;
+}

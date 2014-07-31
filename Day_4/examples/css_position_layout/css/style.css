@@ -1,0 +1,47 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+
+  	position: relative;
+}
+
+nav {
+	border: 2px solid red;
+  	position: absolute;
+  	left: 0px;
+  	width: 200px;
+}
+
+section {
+	border: 2px solid blue;
+  	/* position is static by default */
+  	margin-left: 200px;
+}
+
+footer {
+	border: 2px solid green;
+  	position: fixed;
+  	bottom: 0;
+  	left: 0;
+  	height: 70px;
+  	background-color: white;
+  	width: 100%;
+}
+
+body {
+  	margin-bottom: 120px;
+}

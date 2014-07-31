@@ -1,0 +1,50 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.div-before {
+	background-color: #6139b5;
+}
+
+.div-1 {
+	background-color: black;
+	/*element moves relative to where it would normally occur*/
+	/*notice the space where it would normally occur*/
+	/*space stays empty*/
+	position:relative;
+	top:20px;
+	left:-40px;
+}
+
+.div-1a {
+	background-color: red;
+}
+
+.div-1b {
+	background-color: green;
+}
+
+.div-1c {
+	background-color: blue;
+}
+
+.div-after {
+	background-color: #6139b5;
+}

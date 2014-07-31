@@ -13,3 +13,18 @@ html, body {
 	width: 100%; 
 }
 /**********************************************/
+
+#main {
+  	/*position: relative;*/
+  	border: 2px solid orange;
+}
+
+
+article img {
+	float: right;
+	width: 50%;
+}
+
+body {
+  	margin-bottom: 120px;
+}
