@@ -106,6 +106,47 @@ Try out: [CSS Code](http://www.w3schools.com/css/tryit.asp?filename=trycss_zinde
 
 - An element with greater stack order is always in front of an element with a lower stack order.
 
+##What is CSS Float?
+
+- With CSS float, an element can be pushed to the left or right, allowing other elements to wrap around it.
+
+- Float is very often used for images, but it is also useful when working with layouts.
+
+
+###How Elements Float
+- Elements are floated horizontally, this means that an element can only be floated left or right, not up or down.
+
+- A floated element will move as far to the left or right as it can. Usually this means all the way to the left or right of the containing element.
+
+- The elements after the floating element will flow around it.
+
+- The elements before the floating element will not be affected.
+
+- If an image is floated to the right, a following text flows around it, to the left:
+
+Example:
+`img {
+    float: right;
+}`
+Try out: [CSS Code](http://www.w3schools.com/css/tryit.asp?filename=trycss_float)
+
+###Floating Elements Next to Each Other
+
+- If you place several floating elements after each other, they will float next to each other if there is room.
+
+- Here we have made an image gallery using the float property:
+
+`.thumbnail {
+    float: left;
+    width: 110px;
+    height: 90px;
+    margin: 5px;
+}`
+
+Try out: [CSS Code](http://www.w3schools.com/css/tryit.asp?filename=trycss_float_elements)
+
+
+###Turning off Float - Using Clear
 
 
 
