@@ -1,0 +1,50 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+  	border: 2px solid orange;
+}
+
+img {
+	float: left;
+	margin: 0 0 10px 10px;
+}
+
+nav {
+	border: 2px solid red;
+  	float:left;
+  	width: 200px;
+}
+
+section {
+	border: 2px solid blue;
+  	margin-left: 200px;
+  	overflow: auto; /*that picture fits inside*/
+}
+
+footer {
+	border: 2px solid green;
+  	position: fixed; /*absolute goes to #main*/
+  	bottom: 0;
+  	left: 0;
+  	height: 70px;
+  	background-color: white;
+  	width: 100%;
+}
+
+body {
+  	margin-bottom: 120px;
+}
