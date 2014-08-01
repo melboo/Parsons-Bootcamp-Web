@@ -13,3 +13,40 @@ html, body {
 	width: 100%; 
 }
 /**********************************************/
+
+body {
+	font-family: helvetica, arial;
+}
+
+.box {
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	background-color: blue;
+	color: white;
+	border-radius: 6px;
+
+	/*center vertical horizontal*/
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	/*transition*/
+	transition-property: background, border-radius;
+	transition-duration: 2s, 1s;
+	transition-function: linear, linear;
+
+
+}
+
+.box:hover {
+	background-color: red;
+	border-radius: 50%;
+}
+
+
+
+
