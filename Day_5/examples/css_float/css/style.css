@@ -1,0 +1,127 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+	background-color: black;
+	height: 100%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+}
+
+p{
+	line-height: 1.4em;
+}
+
+body {
+	font-family: helvetica, arial;
+	font-size: 1.0em;
+}
+
+header {
+	background-color: #7fd1ac;
+	overflow: auto;
+}
+
+header img {
+	float: left;
+}
+
+header nav {
+	margin-left: 300px;
+	padding-top: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 15px;
+    float: left;
+}
+
+header nav ul li .box {
+  background: black;
+  color: white;
+  border-radius: 6px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear;
+}
+
+header nav ul li .box:hover {
+  background: #2db34a;
+  border-radius: 50%;
+}
+
+.clear {
+	clear: both;
+}
+
+section.sec-1{
+	padding: 1%;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	overflow: auto;
+	background-color: #84aad5;
+}
+
+section.sec-1 img {
+	float: right;
+	width: 49%;
+}
+
+section.sec-1 .txt {
+	padding-top: 20px;
+	width: 50%;
+	float: left;
+}
+
+section.sec-2{
+	background-color: #aa64d5;
+	overflow: auto;
+}
+
+section.sec-2 .txt {
+	width: 45%;
+	float: right;
+	padding: 2.5%;
+}
+
+section.sec-2 img {
+	float: left;
+	width: 49%;
+	opacity: 0.5;
+}
+
+section.sec-2 img:hover {
+	opacity: 1;
+}
+
+

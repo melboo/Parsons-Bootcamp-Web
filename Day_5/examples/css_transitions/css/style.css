@@ -1,0 +1,75 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+body {
+	font-family: helvetica, arial;
+}
+
+
+.box {
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+	background-color: #6d91d5;
+	color: white;
+	padding: 5px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	/*just background*/
+	transition-property: background; /*change background property*/
+  	transition-duration: 1s; /*set duration of the animation*/
+  	transition-timing-function: linear; /*set what kind of animation*/
+
+  	/*for border*/
+	/* border-radius: 6px;
+  	transition-property: background, border-radius;
+  	transition-duration: .2s, 1s;
+  	transition-timing-function: linear, ease-in;
+  	*/
+  	
+  	/*you can set a delay*/
+  	/*
+  	transition-delay: 0, 1s;
+  	*/
+
+  	/*
+  	-webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+	*/
+
+	/*all short*/
+	/*
+	transition: background .2s linear, border-radius 1s ease-in 1s;
+	*/
+  	
+}
+
+/*end of the animation*/
+.box:hover{
+	background-color: #d53bc6;
+	/*border-radius: 50%;*/
+}
