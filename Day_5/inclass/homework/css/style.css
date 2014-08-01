@@ -13,3 +13,75 @@ html, body {
 	width: 100%; 
 }
 /**********************************************/
+
+nav a {
+	text-decoration: none;
+	color: red;
+}
+
+nav a:hover {
+	color: green;
+}
+
+header img {
+}
+
+header nav {
+	float: right;
+	width: 300px;
+}
+
+.clear { /*after float, class clear*/
+	clear: both;
+}
+
+nav ul li {
+	display: inline; 
+	margin-right: 15px; /* adjust space between nav items*/
+}
+
+section.sec-1 {
+	border: 1px solid red;
+	overflow: auto;
+	padding: 10px;
+}
+
+section.sec-1 .txt {
+	float: left;
+	width: 50%;
+}
+
+section.sec-1 img {
+	float: right;
+	width: 49%;
+}
+
+section.sec-2 img {
+	float: left;
+	width: 49%;
+	border: 1px solid blue;
+}
+
+section.sec-2 .txt {
+	float: left;
+	width: 49%;
+	border: 1px solid orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
