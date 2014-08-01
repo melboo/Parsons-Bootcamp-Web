@@ -38,13 +38,15 @@ body {
 	transition-property: background, border-radius;
 	transition-duration: 2s, 1s;
 	transition-function: linear, linear;
-
-
 }
 
 .box:hover {
 	background-color: red;
 	border-radius: 50%;
+}
+
+img {
+	opacity: .5;
 }
 
 

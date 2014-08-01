@@ -1,0 +1,30 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+section.sec-1 {
+	border: 1px solid red;
+	overflow: auto;
+}
+
+section.sec-1 .txt {
+	float: left;
+	width: 50%;
+}
+
+section.sec-1 img {
+	float: right;
+	width: 50%;
+}
