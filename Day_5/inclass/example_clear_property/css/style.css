@@ -30,6 +30,15 @@ section.sec-1 img {
 	width: 50%;
 }
 
+.txt2 {
+	border: 1px solid green;
+	color: green;
+}
+
+.txt3 {
+	border: 1px solid blue;
+	color: blue;
+}
 
 .clear {
 	clear: both;
