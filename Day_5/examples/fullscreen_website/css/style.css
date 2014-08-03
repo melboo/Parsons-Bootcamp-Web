@@ -1,0 +1,43 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+body {
+	font-family: helvetica, arial;
+	color: white;
+}
+
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#main {
+	width: 400px;
+	margin: 50px auto;
+	padding: 20px;
+	background: black;		
+	opacity: .8; /*Transparent background*/
+	-moz-box-shadow: 0 0 20px black;	/*Creates a shadow around the div box*/
+	-webkit-box-shadow: 0 0 20px black; /*Creates a shadow around the div box*/
+	box-shadow: 0 0 20px black; /*Creates a shadow around the div box*/
+}
+
+p {
+	margin-top: 20px;
+}
