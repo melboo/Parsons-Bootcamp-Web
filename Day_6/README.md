@@ -6,5 +6,3 @@ Bootcamp Web G Section 2014
 
 Day 6:
 =========================
-
-
