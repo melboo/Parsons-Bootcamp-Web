@@ -1,0 +1,37 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+video#bgvid {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url(../img/road.png) no-repeat;
+	background-size: cover;
+}
+
+section.content {
+	font-family: Agenda-Light,Agenda Light,Agenda,Arial Narrow,sans-serif;
+	font-weight: 100;
+	background: rgba(0,0,0,0.3);
+	color: white;
+	padding: 2rem;
+	width: 33%;
+	margin: 2rem;
+	float: right;
+	font-size: 1.2rem;
+}
