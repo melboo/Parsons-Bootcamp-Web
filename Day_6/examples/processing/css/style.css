@@ -13,3 +13,35 @@ html, body {
 	width: 100%; 
 }
 /**********************************************/
+
+canvas#mycanvas {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+header {
+	margin: 0 auto;
+	width: 600px;
+	height: 200px;
+	border: 1px solid black;
+	position: relative;
+}
+
+header nav {
+	float: left;
+	margin-left: 250px;
+	position: absolute;
+	bottom: 20px;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header nav ul li{
+	display: inline;
+}
