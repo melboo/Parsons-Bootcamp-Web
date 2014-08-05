@@ -1,0 +1,114 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+
+/******************************/
+/* Setting up the general rules for our elements */
+/******************************/
+.img_box {
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.img_box .mask{
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.img_box img {
+	display: block;
+}
+
+.img_box h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background-color: red;
+    margin: 20px 0 0 0
+}
+
+.img_box a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.img_box a.info:hover {
+    background-color: green; /*change color on hover*/
+}
+
+/******************************/
+/*Initializing the objects we want to appear on the image, but first hide them*/
+/******************************/
+.view-first img { 
+    transition: all 0.2s linear; /*initialize the coming transition on hover*/
+}
+
+.view-first .mask {
+    opacity: 0;
+    background-color: hsla(270, 100%, 50%, 0.11); 
+}
+
+.view-first h2 {
+    transform: translateY(-100px); /*origin position, hide object at start*/
+    opacity: 0;
+    transition: all 0.2s ease-in-out; /*initialize the coming transition on hover*/
+}
+
+.view-first a.info{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;/*initialize the coming transition on hover*/
+}
+
+/******************************/
+/* Now we tell what should happen if the mouse is over the image */
+/******************************/
+.view-first:hover img { 
+    transform: scale(1); /*scales the image, zoom in 1.1 */
+} 
+
+.view-first:hover .mask { 
+    opacity: 1; /* the mask will be visible on hover*/
+    
+}
+
+.view-first:hover h2{
+    opacity: 1; /*title will be visible on hover*/
+    transform: translateY(100px); /*change position Y of h2 and info on hover*/
+    transform: translateX(0px); /*change position X of h2 and info on hover*/
+}
+
+.view-first:hover a.info {
+	opacity: 1; /* makes the info field visible on hover*/
+    transition-delay: .2s; /* delays the animation of the info field aka check out*/
+    transform: translateY(50px); /*change position Y of info on hover*/
+}
+
+
