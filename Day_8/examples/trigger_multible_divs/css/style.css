@@ -1,0 +1,63 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+
+/*Basic rules divs*/
+
+.parent {
+	border: 1px solid green;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 25%;
+}
+
+.parent div {
+	width: 200px;
+	height: 200px;
+}
+
+.div-1 {
+	background-color: red;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+    transition: left 2s linear; /* animation*/    
+}
+
+.div-2 {
+	background-color: green;
+	position: absolute;
+	right: 30%;
+	top: 30%;
+    transition: right 2s linear; /* animation*/     
+}
+
+/*Animation*/
+
+.parent:hover .div-2{
+	right: 10%;
+}
+
+.parent:hover .div-1{
+	left: 10%;
+}
+
+
+
+
+
+
+
