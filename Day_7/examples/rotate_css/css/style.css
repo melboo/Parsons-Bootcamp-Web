@@ -23,10 +23,23 @@ html, body {
     -webkit-transform: rotate(360deg);
   }
 }
-img
+
+img.earth
 {
     -webkit-animation-name:             rotate; 
     -webkit-animation-duration:         0.7s; 
     -webkit-animation-iteration-count:  infinite;
     -webkit-transition-timing-function: linear;
+
+}
+
+
+
+.box {
+	height: 100px;
+	width: 200px;
+	background-color: blue;
+	position: absolute;
+	top: 200px;
+	left: 400px;
 }

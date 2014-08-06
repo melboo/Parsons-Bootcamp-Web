@@ -1,0 +1,34 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+/* Styling the Box */
+.box{
+    margin:20px 0 0;
+    height:400px; /* Needs a fix height*/
+    width:100%;
+    opacity: 1; 
+    transform: translateX(-100%); /* - values, coz the box needs to be out of the window*/
+    transition: all 0.2s linear;     
+    background-color: black;
+    color: white;
+}
+ 
+/* This selector selects the box currently targeted */     
+.box:target{
+    display:block;
+    transform: translateX(0px);
+    opacity: 1;
+}
