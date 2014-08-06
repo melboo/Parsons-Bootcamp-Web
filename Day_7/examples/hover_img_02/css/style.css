@@ -73,7 +73,7 @@ html, body {
 
 .view-first .mask {
     opacity: 0;
-    background-color: hsla(270, 100%, 50%, 0.11); 
+    background-color: hsla(270, 100%, 50%, 0.84); 
     transform: translateY(100%);
     transition: all 0.2s ease-in-out;
 }
