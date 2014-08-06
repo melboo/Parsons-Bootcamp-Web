@@ -1,0 +1,46 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+body {
+	font-family: helvetica, arial;
+}
+
+section {
+	position: relative;
+	min-height: 100vh; /*will adjust the section height to the screen height, all sections will be the same*/
+  	width: 100vw; /*100% width for all of the sections*/
+	border: 1px solid red;
+}
+
+section.about{
+	background-color: red;
+}
+
+section.work{
+	background-image: url(../img/bg.jpg); /*background image for section work*/
+	color: white;
+}
+
+section.contact{
+	background-color: red;
+}
+
+section.about h2 {
+	width: 75px;
+	border: 1px solid green;
+	margin: 0 auto; /*If you use margin to center a div, you need a width for the element*/
+	margin-top: 30px;
+}

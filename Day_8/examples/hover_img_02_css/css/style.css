@@ -30,7 +30,7 @@ html, body {
 }
 .img_box .mask{
 	width: 100%;
-	height: 100%;
+	height:100%;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -73,7 +73,9 @@ html, body {
 
 .view-first .mask {
     opacity: 0;
-    background-color: hsla(270, 100%, 50%, 0.84);  /*background color overlay*/
+    background-color: hsla(270, 100%, 50%, 0.84); 
+    transform: translateY(100%);
+    transition: all 0.2s ease-in-out;
 }
 
 .view-first h2 {
@@ -91,18 +93,18 @@ html, body {
 /* Now we tell what should happen if the mouse is over the image */
 /******************************/
 .view-first:hover img { 
-    transform: scale(.5); /*scales the image, zoom in 1.1 */
+    transform: scale(1); /*scales the image, zoom in 1.1 */
 } 
 
 .view-first:hover .mask { 
     opacity: 1; /* the mask will be visible on hover*/
-    
+    transform: translateY(20%);/*change position Y of the mask on hover*/
 }
 
 .view-first:hover h2{
     opacity: 1; /*title will be visible on hover*/
-    transform: translateY(100px); /*change position Y of h2 and info on hover*/
-    transform: translateX(0px); /*change position X of h2 and info on hover*/
+    transform: translateY(100px); /*change position Y of h2 on hover*/
+    transform: translateX(0px); /*change position X of h2 on hover*/
 }
 
 .view-first:hover a.info {
