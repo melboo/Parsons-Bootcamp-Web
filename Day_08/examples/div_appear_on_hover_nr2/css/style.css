@@ -26,7 +26,7 @@ nav {
 
 .showme{ 
 	display: none;
-	background-color: red;
+	background-color: hsla(288, 100%, 50%, 0.32);
 	height: 50px;
 	width: 410px;
 	z-index: -1;
@@ -37,7 +37,7 @@ nav {
 }
 
 .showit a{
-	background-color: blue;
+	background-color: orange;
 	height: 20px;
 	position: absolute;
 	z-index: initial;
@@ -47,18 +47,19 @@ nav {
 	height: 20px;
 }
 
+.showit a:hover{
+	background-color: blue;
+}
+
 .showit#n-1 a{
-	background-color: orange;
 	left: 0px; /*positioning nav element*/
 }
 
 .showit#n-2 a{
-	background-color: green;
 	left: 100px; /*positioning nav element*/
 }
 
 .showit#n-3 a{
-	background-color: yellow;
 	left: 200px; /*positioning nav element*/
 }
 
