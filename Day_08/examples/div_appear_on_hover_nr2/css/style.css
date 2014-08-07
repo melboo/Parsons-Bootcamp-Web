@@ -49,21 +49,17 @@ nav {
 
 .showit#n-1 a{
 	background-color: orange;
-	left: 0px; 
+	left: 0px; /*positioning nav element*/
 }
 
 .showit#n-2 a{
 	background-color: green;
-	left: 100px; 
+	left: 100px; /*positioning nav element*/
 }
 
 .showit#n-3 a{
 	background-color: yellow;
-	left: 200px; 
-}
-
-.showit a {
-
+	left: 200px; /*positioning nav element*/
 }
 
 .showit:hover .showme{
