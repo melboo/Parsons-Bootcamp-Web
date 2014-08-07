@@ -1,0 +1,76 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+	height: 4000px; /*just for test*/
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.showme{ 
+	display: none;
+	background-color: red;
+	height: 50px;
+	width: 410px;
+	z-index: -1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-top: 50px;
+}
+
+.showit a{
+	background-color: blue;
+	height: 20px;
+	position: absolute;
+	z-index: initial;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 20px;
+}
+
+.showit#n-1 a{
+	background-color: orange;
+	left: 0px; 
+}
+
+.showit#n-2 a{
+	background-color: green;
+	left: 100px; 
+}
+
+.showit#n-3 a{
+	background-color: yellow;
+	left: 200px; 
+}
+
+.showit a {
+
+}
+
+.showit:hover .showme{
+	display : block;
+}
+
+
+
+
+
