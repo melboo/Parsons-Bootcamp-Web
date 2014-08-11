@@ -9,11 +9,12 @@ Day 10:
 
 ##Introduction JavaScript##
 
-`var x;` // Declare a variable named x.
+- `var x;` // Declare a variable named x.
 
-// Values can be assigned to variables with an `=` sign
-x = 0; // Now the variable x has the value 0
-x // => 0: A variable evaluates to its value.
+- // Values can be assigned to variables with an `=` sign
+- x = 0; // Now the variable x has the value 0
+- x // => 0: A variable evaluates to its value.
+
 // JavaScript supports several types of values
 x = 1;
 x = 0.01;
