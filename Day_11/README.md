@@ -20,6 +20,3 @@ p5.js Reference [p5.js Reference](http://p5js.org/reference/)
 **Examples**
 - P5.js workshop[p5.js workshop](http://p5js.org/workshop/)
 - P5.js GitHub [P5.js GitHub](https://github.com/lmccart/p5.js/)
-
-***Resources***
-- MDN [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
