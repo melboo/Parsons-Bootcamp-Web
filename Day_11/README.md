@@ -11,7 +11,7 @@ Day 11:
 
 - P5.js Website [p5.js website](http://p5js.org/)
 
-***Resources***
+**Resources**
 
 
 p5.js Reference [p5.js Reference](http://p5js.org/reference/)
