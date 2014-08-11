@@ -1,0 +1,23 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+canvas.lemon {
+	position: relative;
+	min-height: 100vh; /*will adjust the section height to the screen height, all sections will be the same*/
+  	width: 100vw; /*100% width for all of the sections*/
+	border: 1px solid red;
+	z-index: -1;
+}

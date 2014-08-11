@@ -9,7 +9,8 @@ Day 10:
 
 ##Introduction JavaScript##
 
-`var x;` // Declare a variable named x.< br/>
+`var x;` // Declare a variable named x.
+
 // Values can be assigned to variables with an = sign
 x = 0; // Now the variable x has the value 0
 x // => 0: A variable evaluates to its value.
