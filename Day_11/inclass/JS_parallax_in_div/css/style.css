@@ -1,0 +1,58 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+body {
+	
+
+}
+
+#layerbg {
+	background: url("../img/bg.jpg");
+	background-attachment: fixed; 
+	position: relative;
+	height: 400px;
+	width: 800px;
+}
+
+#layer1 {
+	position: absolute;
+	background-image: url("../img/01.png");
+	background-position: 300px 300px;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+	opacity: .5;
+}
+
+#layer2 {
+	position: absolute;
+	background: url("../img/02.png");
+	background-repeat: no-repeat;
+	background-position: 0px 300px;
+	width: 100%;
+	height: 400px;
+	opacity: .5;
+}
+
+#content_layer {
+	/*position: absolute;*/
+}
+
+section#content_layer {
+	width: 800px;
+	margin-bottom: 50px;
+}
+
