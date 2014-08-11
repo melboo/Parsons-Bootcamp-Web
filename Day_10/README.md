@@ -15,63 +15,45 @@ Day 10:
 - x = 0; // Now the variable x has the value 0
 
 **JavaScript supports several types of values**
-- x = 1;
-- x = 0.01;
-- x = "hello world"; x = 'JavaScript'; x = true;
-- x = false;
+- `x = 1;` // Numbers.
+- `x = 0.01;` // Just one Number type for integers and reals.
+- `x = "hello world";` // Strings of text in quotation marks.
+- `x = 'JavaScript';` // Single quote marks also delimit strings.
+- `x = true;` // Boolean values.
+- `x = false;` // The other Boolean value.
+- `x = null;` // Null is a special value that means "no value".
+- `x = undefined;` // Undefined is like null.
 
-// Numbers.
 
-// Just one Number type for integers and reals. // Strings of text in quotation marks.
-// Single quote marks also delimit strings.
-// Boolean values.
-// The other Boolean value.
+**JavaScript's most important data type is the object.**
+// An object is a collection of name/value pairs, or a string to value map.
+var book = {				// Objects are enclosed in curly braces.
+	topic: "JavaScript", 	// The property "topic" has value "JavaScript". 
+	fat: true 				// The property "fat" has value true.
+}; 							// The curly brace marks the end of the object.
 
+// Access the book.topic book["fat"] book.author = book.contents
+properties of an object with . or []: // => "JavaScript"
+// => true: another way to access property values. "Flanagan"; // Create new properties by assignment.
+= {}; // {} is an empty object with no properties.
+// JavaScript also supports arrays (numerically indexed lists) of values: var primes = [2, 3, 5, 7]; // An array of 4 values, delimited with [ and ].
+primes[0]
+primes.length primes[primes.length-1] primes[4] = 9; primes[4] = 11;
+var empty = []; empty.length
+// => 2: the first element (index 0) of the array. // => 4: how many elements in the array.
+// => 7: the last element of the array.
+// Add a new element by assignment.
+// Or alter an existing element by assignment. // [] is an empty array with no elements.
+// => 0
+// Arrays and objects can hold other arrays and objects:
+var points = [ {x:0, y:0},
+{x:1, y:1} ];
+var data = {
+trial1: [[1,2], [3,4]], trial2: [[2,3], [4,5]]
+};
+// An array with 2 elements. // Each element is an object.
+// An object with 2 properties
+// The value of each property is an array. // The elements of the arrays are arrays.
 
 ***Resources***
 - MDN [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-// Operators act on values (the operands) to produce a new value. // Arithmetic operators are the most common:
-3 + 2 // => 5: addition
-￼￼1.1 Core JavaScript | 5
-3 - 2
-3 * 2
-3 / 2
-points[1].x - points[0].x "3" + "2"
-// JavaScript defines some
-// => 1: subtraction
-// => 6: multiplication
-// => 1.5: division
-// => 1: more complicated operands work, too
-// => "32": + adds numbers, concatenates strings
-shorthand arithmetic operators // Define a variable
-// Increment the variable
-// Decrement the variable
-// Add 2: same as count = count + 2;
-// Multiply by 3: same as count = count * 3; // => 6: variable names are expressions, too.
-var count = count++; count--; count += count *= count
-// Equality
-// unequal,
-var x = 2, y = 3; x == y
-x != y
-x < y
-x <= y
-x > y
-x >= y
-"two" == "three" "two" > "three" false == (x > y)
-2; 3;
-0;
-// Logical operators combine or invert boolean values
-(x == 2) && (y == 3) (x > 3) || (y < 3) !(x == y)
-// => true: both comparisons are true. && is AND // => false: neither comparison is true. || is OR // => true: ! inverts a boolean value
-operators test whether two values are equal,
-and relational
-less than, greater than, and so on. They evaluate to true or false.
-// These = signs are assignment, not equality tests // => false: equality
-// => true: inequality
-// => true: less-than
-// => true: less-than or equal
-// => false: greater-than
-// => false: greater-than or equal
-// => false: the two strings are different
-// => true: "tw" is alphabetically greater than "th" // => true: false is equal to false
