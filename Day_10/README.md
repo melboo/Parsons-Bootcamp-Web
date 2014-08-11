@@ -26,11 +26,12 @@ Day 10:
 
 
 **JavaScript's most important data type is the object.**
+
 // An object is a collection of name/value pairs, or a string to value map.
-var book = {				// Objects are enclosed in curly braces.
-	topic: "JavaScript", 	// The property "topic" has value "JavaScript". 
-	fat: true 				// The property "fat" has value true.
-}; 							// The curly brace marks the end of the object.
+- `var book = {`			// Objects are enclosed in curly braces.
+- `topic: "JavaScript",` 	// The property "topic" has value "JavaScript". 
+- `fat: true` 				// The property "fat" has value true.
+- `};`						// The curly brace marks the end of the object.
 
 // Access the book.topic book["fat"] book.author = book.contents
 properties of an object with . or []: // => "JavaScript"
