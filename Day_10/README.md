@@ -101,6 +101,5 @@ Functions are parameterized blocks of JavaScript code that we can invoke.
 - `square(plus1(y));` // => 16: invoke two functions in one expression
 
 
-
 ***Resources***
 - MDN [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
