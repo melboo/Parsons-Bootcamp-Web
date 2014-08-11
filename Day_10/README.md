@@ -102,4 +102,5 @@ Functions are parameterized blocks of JavaScript code that we can invoke.
 
 
 ***Resources***
+- w3School [w3School](http://www.w3schools.com/js/)
 - MDN [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
