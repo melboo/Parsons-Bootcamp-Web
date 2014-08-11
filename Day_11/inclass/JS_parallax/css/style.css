@@ -1,0 +1,43 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+body {
+	background: url("../img/bg.jpg") fixed;
+
+}
+
+#layer1 {
+	position: fixed;
+	background: url("../img/01.png") no-repeat 0px 200px;
+	width: 100%;
+	height: 800px;
+	opacity: .5;
+	border: 1px solid blue;
+}
+
+#layer2 {
+	position: fixed;
+	background: url("../img/02.png") no-repeat 600px 400px;
+	width: 100%;
+	height: 1000px;
+	opacity: .5;
+	border: 1px solid red;
+}
+
+#content_layer {
+	position: absolute;
+}
+

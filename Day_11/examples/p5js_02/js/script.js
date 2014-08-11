@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-	background(125);
+	//background(125);
 	if(mouseIsPressed){
 		fill(255,255,0);
 	}else {
