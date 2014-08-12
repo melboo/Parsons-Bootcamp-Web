@@ -18,18 +18,18 @@ $(document).ready(function(){
   });
 });
 
-// $(document).ready(function(){
-//   $("p").click(function(){
-//     $(this).hide();
-//   });
-// });
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
 
 
-// $(document).ready(function(){
-//   $("button").click(function(){
-//     $("p").toggle(speed,callback);
-//   });
-// });
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle(speed,callback);
+  });
+});
 
 // The optional speed parameter can take the following values: "slow", "fast", or milliseconds.
 
