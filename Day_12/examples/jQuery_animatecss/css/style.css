@@ -1,0 +1,88 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+body {
+	font-family: helvetica, arial;
+}
+
+#main {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	height: 150px;
+	background-color: black;
+
+}
+
+header img { 
+	float: left;
+	width: 80px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+section {
+	padding: 20px;
+	height: 600px;
+	border: 3px solid black;
+	margin-top: 10px;
+}
+
+section h2{
+	margin-bottom: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.logo-02 {
+	margin-top: 50px;
+}
+
+header nav {
+	float: left;
+	margin-left: 200px;
+	line-height: 150px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a:link{
+	font-size: 13px;
+	display: inline;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid white;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+nav ul li a:visited {
+	border: 1px solid white;
+
+}
+
+

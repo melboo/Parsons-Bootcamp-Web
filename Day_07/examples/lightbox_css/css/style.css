@@ -49,6 +49,12 @@ p {
 	background: rgba(0,0,0,0.8); /*background lightbox*/
 }
 
+.lightbox .test {
+	width: 200px;
+	height: 400px;
+	background-color: red;
+}
+
 /*image appears*/
 .lightbox img {
 	/** Pad the lightbox image */
