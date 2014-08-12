@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div id="main">
+	<!-- Lightbox usage markup -->
+
+		<!-- thumbnail image wrapped in a link -->
+			<a href="#img1">
+		  		<img src="img/img1.jpg" width="150px">
+			</a>
+
+		<!-- lightbox container hidden with CSS -->
+		<a href="#hideall" class="lightbox" id="img1">
+			<!-- http://rawgit.com/ -->
+			<div id="slider1" class="csslider infinity inside">
+		        <input type="radio" name="slides" id="slides_1" checked />
+		        <input type="radio" name="slides" id="slides_2" />
+		        <input type="radio" name="slides" id="slides_3" />
+		        <input type="radio" name="slides" id="slides_4" />
+		        <ul>
+		            <li>
+		                <h3>My Lightbox Title</h3>
+		                <p>My description</p>
+		                <img src="./img/01.jpg" />
+		            </li>
+		            <li>
+		            	<h3>My Lightbox Title</h3>
+		                <p>My description</p>
+		                <img src="./img/02.jpg" />
+		            </li>
+		            <li>
+		                <div>
+		                    <div>
+		                        <h3>My Lightbox Title</h3>
+		                		<p>My description</p>
+		                        <img src="./img/03.jpg" />
+		                    </div>
+		                </div>
+		            </li>
+		            <li>
+		                <h3>My Lightbox Title</h3>
+		                <p>My description</p>
+		                <img src="./img/04.jpg" />
+		            </li>
+		        </ul>
+		        <div class="arrows">
+		            <label for="slides_1"></label>
+		            <label for="slides_2"></label>
+		            <label for="slides_3"></label>
+		            <label for="slides_4"></label>
+		        </div>
+<!-- 		        <div class="navigation">
+		            <div>
+		                <label for="slides_1"></label>
+		                <label for="slides_2"></label>
+		                <label for="slides_3"></label>
+		                <label for="slides_4"></label>
+		            </div>
+		        </div> -->
+		    </div>
+		</a>
+	</div>
+	
+</body>
+</html>
