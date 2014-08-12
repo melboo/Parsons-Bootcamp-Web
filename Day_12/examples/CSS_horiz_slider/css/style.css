@@ -1,0 +1,170 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+body {
+	font-family: helvetica, arial;
+}
+
+header {
+	height: 150px;
+	background-color: black;
+}
+
+header nav {
+	float: left;
+	margin-left: 200px;
+	line-height: 150px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a:link{
+	font-size: 13px;
+	display: inline;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid white;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+nav ul li a:visited {
+	border: 1px solid white;
+
+}
+
+section {
+	position: relative;
+	min-height: 100vh; /*will adjust the section height to the screen height, all sections will be the same*/
+  	width: 100vw; /*100% width for all of the sections*/
+	border: 1px solid red;
+}
+
+section.about{
+	background-color: yellow;
+}
+
+section.work{
+	background-image: url(../img/bg.jpg); /*background image for section work*/
+	color: white;
+}
+
+section.contact{
+	background-color: orange;
+}
+
+section.about h2 {
+	width: 75px;
+	border: 1px solid green;
+	margin: 0 auto; /*If you use margin to center a div, you need a width for the element*/
+	margin-top: 30px;
+}
+
+/*slider control*/
+
+.next, .back{
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+}
+.back {
+    left: 30px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.next {
+    right: 30px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #fff;
+}
+
+/* The Basic Style for all Pages */
+
+.page { 
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+}
+
+/* The Pages */
+
+#i1 { 
+	left: 100%; 
+	background-color: red; 
+}
+
+#i2 { 
+	left: 200%; 
+	background-color: blue; 
+}
+#i3 { 
+	left: 300%; 
+	background-color: green; 
+}
+
+/* The Transition Effect */
+
+.page { 
+	-webkit-transition: -webkit-transform 0.8s;
+	-moz-transition: -moz-transform 0.8s;
+	-o-transition: -o-transform 0.8s;
+	transition: transform 0.8s;
+}
+
+/* The Sliding Action */
+/* TranslateX for better Performance. Translate3D for better Performance on Ipad. */
+
+#a1:target .page { 
+	-webkit-transform: translateX(-100%); 
+	-moz-transform: translateX(-100%); 
+	-o-transform: translateX(-100%); 
+	transform: translateX(-100%); 
+}
+#a2:target .page { 
+	-webkit-transform: translateX(-200%); 
+	-moz-transform: translateX(-200%); 
+	-o-transform: translateX(-200%); 
+	transform: translateX(-200%); 
+}
+
+#a3:target .page { 
+	-webkit-transform: translateX(-300%); 
+	-moz-transform: translateX(-300%); 
+	-o-transform: translateX(-300%); 
+	transform: translateX(-300%); 
+}
+
+/* The First Page - Initial Positioning without Anchor */
+
+.page { 
+	-webkit-transform: translateX(-100%); 
+	-moz-transform: translateX(-100%); 
+	-o-transform: translateX(-100%); 
+	transform: translateX(-100%);
+}

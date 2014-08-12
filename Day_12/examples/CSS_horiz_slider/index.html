@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="main">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#" id="work-link">Work</a></li>
+					<li><a href="#" id="about-link">About</a></li>
+					<li><a href="#" id="contact-link">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="about" id="about">
+			<h2>about </h2>
+			<div class="content"></div>
+		</section>
+		<section class="work" id="work">
+			
+			<div class="content"></div>
+
+			<!-- These divs are used for anchor-jumps with the pseudoclass :target -->
+			<!-- http://www.designmadeingermany.de/ -->
+
+			<div id="a1">
+			 	<div id="a2">
+			  		<div id="a3">
+	   					<!-- Top Navigation. Ya, tables are evil. -->
+						<!-- <table> 
+					    <tr> 
+					     <td><a href="#a1" id="p1">1</a></td> 
+					     <td><a href="#a2" id="p2">2</a></td> 
+					     <td><a href="#a3" id="p3">3</a></td> 
+					    </tr> 
+					   </table> -->
+					   <!-- Fallback -->
+					   <div id="i0" class="page">
+					    	<h2>Your browser sucks.</h2>
+					   </div>
+					   <!-- First Page #a1 -->
+					   <div id="i1" class="page">
+						    <!-- <a href="#a3" class="back"></a> -->
+						    <a href="#a2" class="next"></a>
+						    <h2>work page i1</h2>
+					   </div>
+					   <!-- Second Page #a2 -->
+					   <div id="i2" class="page">
+						    <a href="#a1" class="back"></a>
+						    <a href="#a3" class="next"></a>
+						    <h1>Page i2</h1>
+					   </div>
+					   <!-- Third Page #a3 -->
+					   <div id="i3" class="page">
+						    <a href="#a2" class="back"></a>
+						    <!-- <a href="#a1" class="next"></a> -->
+						    <h1>Page i3</h1>
+					   </div>
+				  	</div>
+				</div>
+			</div>
+<!-- The End -->
+		</section>
+		<section class="contact" id="contact">
+			<h2>contact</h2>
+			<div class="content"></div>
+		</section>
+	</div>
+<script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
