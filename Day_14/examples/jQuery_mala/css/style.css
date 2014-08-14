@@ -1,0 +1,82 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+	height: 2000px;
+	border: 1px solid red;
+	position: relative;
+}
+
+#panel, #flip{
+	padding:5px;
+	text-align:center;
+	background-color:#e5eecc;
+	border:solid 1px #c3c3c3;
+}
+
+#panel{
+	padding:50px;
+	display:none;
+}
+
+#test {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+nav {
+	/*position: absolute;
+	bottom: 0;*/
+	width: 100%;
+	background-color: red;
+	height: 40px;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	border: 1px solid green;
+	margin-right: 10px;
+	cursor: pointer;
+	line-height: 40px;
+}
+
+
+#why, #what, #where {
+	/*position: absolute;
+	bottom:40px;*/
+	display:none;
+	background-color: red;
+	height: 100px;
+}
+
+#why {
+	background-color: red;
+}
+
+#what {
+	background-color: blue;
+}
+
+#where {
+	background-color: green;
+}
+
+
