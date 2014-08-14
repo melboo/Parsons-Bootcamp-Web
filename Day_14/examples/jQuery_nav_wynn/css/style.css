@@ -1,0 +1,59 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+	border: 1px solid red;
+}
+
+nav {
+   margin: 60px 10px 10px 10px;
+}
+
+.link, .page {
+	padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+a {
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+
+.link {
+    border-top: 0; 
+    font-size: 12px; 
+}
+
+.overlay {
+	width: 300px;
+	position: absolute;
+	right: -300px;
+	top: 0px;
+	border: 1px solid blue;
+	z-index: 1000;
+}
+
+.nav-icon {
+	background-image: url("../img/nav-logo.jpg");
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 2000;
+	cursor: pointer;
+}

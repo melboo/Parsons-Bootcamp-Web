@@ -4,8 +4,8 @@
 
 $(document).ready(function(){
   $("#why-link").click(function(){
-    $("#why").slideToggle("slow");
-    // $("#why").slideDown();
+    // $("#why").slideToggle("slow");
+    $("#why").slideDown();
     // $("#what").slideUp();
     // $("#where").slideUp();
     // $("#where").css("display","none");
