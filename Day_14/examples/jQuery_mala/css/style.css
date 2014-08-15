@@ -38,6 +38,10 @@ html, body {
 	width: 100%;
 }
 
+.txt {
+
+}
+
 nav {
 	/*position: absolute;
 	bottom: 0;*/
@@ -56,6 +60,10 @@ nav ul li {
 	margin-right: 10px;
 	cursor: pointer;
 	line-height: 40px;
+}
+
+.txt {
+	height: 100px;
 }
 
 

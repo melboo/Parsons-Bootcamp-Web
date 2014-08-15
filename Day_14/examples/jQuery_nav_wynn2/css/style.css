@@ -1,0 +1,76 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+	overflow: auto;
+}
+
+nav {
+   margin: 60px 10px 10px 10px;
+}
+
+.link, .page {
+	padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+a {
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+
+.link {
+    border-top: 0; 
+    font-size: 12px; 
+}
+
+.nav-icon {
+	background-image: url("../img/nav-logo.jpg");
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 2000;
+	cursor: pointer;
+}
+
+.overlay {
+	width: 200px;
+	position: absolute;
+	right: -300px;
+	top: 0px;
+	border: 1px solid blue;
+	z-index: 1000;
+}
+
+.content {
+	position: absolute;
+	top: 0px;
+	right: -500px;
+	width: 480px;
+	z-index: 1000;
+	border: 1px solid green;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#c-1, #c-2, #c-3 {
+	display: none;
+}
+
+
